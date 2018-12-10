@@ -1,0 +1,12 @@
+public class TestClass {
+
+    public static void main(String[] args){
+        System.out.println("This class will be a beginning test to learn the idiosyncrasies of GitHub and Git in general.");
+
+        exampleMethod(4, 19);
+    }
+
+    private static void exampleMethod(int a, int b){
+        System.out.println(((a + b * a) / (a - b)) % a);
+    }
+}
