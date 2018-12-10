@@ -2,11 +2,17 @@ public class TestClass {
 
     public static void main(String[] args){
         System.out.println("This class will be a beginning test to learn the idiosyncrasies of GitHub and Git in general.");
-
         exampleMethod(4, 19);
+        endingMethod();
     }
 
     private static void exampleMethod(int a, int b){
         System.out.println(((a + b * a) / (a - b)) % a);
     }
 }
+
+
+
+    private static void endingMethod(){
+        System.out.println("This part of the repository was excusively typed within GitHub. If it shows up, congrats!");
+    }
